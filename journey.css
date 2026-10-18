@@ -72,3 +72,11 @@ body { isolation: isolate; }
   .page-atmosphere > div { transform: none; transition: none; }
   .page-rail a::before, .page-rail a span { transition: none; }
 }
+
+/* LinkedIn and Resume remain adjacent in every profile link group. */
+.actions{flex-wrap:wrap;gap:18px;row-gap:14px}
+.profile-links{display:inline-flex;align-items:center;gap:12px;flex-wrap:nowrap;max-width:100%}
+.profile-button{border:1px solid var(--ink);background:transparent;color:var(--ink);gap:17px;padding:12px 17px;white-space:nowrap}
+.profile-button:hover{background:var(--green-light)}
+.experience-intro>.profile-links{margin-top:2px}
+@media(max-width:480px){.profile-links{gap:10px}.profile-button{padding:11px 14px;gap:14px;font-size:12px}}
