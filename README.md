@@ -10,4 +10,4 @@ Edit the root `index.html`, `styles.css`, `visual.css`, `journey.css`, and `scri
 
 GitHub Pages publishes the `main` branch root. `.nojekyll` keeps this a plain static site. The older `portfolio/` folder is preserved.
 
-The public website links to LinkedIn. A downloadable résumé is not included.
+The website includes a publicly downloadable résumé at `assets/Manasvita-Sharma-Resume.pdf`, alongside LinkedIn links.
